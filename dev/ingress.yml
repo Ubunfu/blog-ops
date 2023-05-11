@@ -16,6 +16,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: blog-service
+            name: blog-web-service
             port:
               number: 80
