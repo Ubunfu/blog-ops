@@ -4,6 +4,7 @@ metadata:
   name: blog-service
   labels:
     app: blog-web
+  namespace: blog
 spec:
   selector:
     matchLabels:
