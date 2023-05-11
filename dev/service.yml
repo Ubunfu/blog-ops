@@ -7,8 +7,7 @@ metadata:
   namespace: blog
 spec:
   selector:
-    matchLabels:
-      app: blog-web
+    app: blog-web
   ports:
     - protocol: TCP
       port: 80
